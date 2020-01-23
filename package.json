@@ -1,0 +1,19 @@
+{
+  "name": "urban-agro",
+  "version": "1.0.0",
+  "description": "This is the corporate site of urban-agro.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiliconDare/Urban-agro.git"
+  },
+  "author": "Xpainter.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiliconDare/Urban-agro/issues"
+  },
+  "homepage": "https://github.com/SiliconDare/Urban-agro#readme"
+}
