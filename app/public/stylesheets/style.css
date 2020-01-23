@@ -1,8 +1,274 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+html, body {
+  margin: 0;
+  padding: 0;
+  background:#111;  
+  -webkit-transition: background 1s linear;
+    transition: background 1s linear;    
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+section{
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
-a {
-  color: #00B7FF;
+.wrapper{
+  padding: 120px 0 50px 0;
+  text-align: center;
+}
+
+h1{
+  margin:0 0 25px 0;
+  font-size: 225px;
+  letter-spacing: 15px;
+  font-family: 'Righteous', cursive;
+  background: url('../images/one.jpg') no-repeat center right;
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+h2{
+  font-weight: normal;
+  color: #FFF;
+  font-size: 28px;
+  letter-spacing: 3px;
+}
+h3{
+  margin: 5px 0;
+  font-weight: normal;
+  color: #585f63;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: #585f63;
+  position: fixed;
+  bottom: 0;
+}
+
+@media screen and (min-width:320px) and (max-width:359px){
+  .wrapper{
+  padding: 120px 10% 0 10%;
+}
+
+h1{
+  margin:0 0 25px 0;
+  font-size: 60px;
+  letter-spacing: 2px;
+  background: url('../images/two.jpg') no-repeat center right;
+  background-size: 100% auto;
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+h2{
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+h3{
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+}
+
+@media screen and (min-width:360px) and (max-width:479px){
+  .wrapper{
+  padding: 120px 10% 0 10%;
+}
+
+h1{
+  margin:0 0 25px 0;
+  font-size: 68px;
+  letter-spacing: 2px;
+  font-family: 'Righteous', cursive;
+  background: url('../images/one.jpg') no-repeat center right;
+  background-size: 100% auto;
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+h2{
+  font-weight: normal;
+  color: #FFF;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+h3{
+  margin: 5px 0;
+  font-weight: normal;
+  color: #585f63;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 569px){
+  .wrapper{
+  padding: 150px 10% 0 10%;
+}
+
+h1{
+  margin:0 0 25px 0;
+  font-size: 90px;
+  letter-spacing: 2px;
+  background: url('../images/one.jpg') no-repeat center right;
+  background-size: 100% auto;
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+h2{
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+h3{
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+}
+
+@media screen and (min-width: 570px) and (max-width: 639px){
+  .wrapper{
+  padding: 150px 10% 0 10%;
+}
+
+h1{
+  margin:0 0 25px 0;
+  font-size: 110px;
+  letter-spacing: 2px;
+  background: url('../images/one.jpg') no-repeat center right;
+  background-size: 100% auto;
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+h2{
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+h3{
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+}
+
+@media screen and (min-width: 640px) and (max-width: 719px){
+  .wrapper{
+  padding: 150px 10% 0 10%;
+}
+
+h1{
+  margin:0 0 25px 0;
+  font-size: 125px;
+  letter-spacing: 4px;
+  background: url('../images/one.jpg') no-repeat center right;
+  background-size: 100% auto;
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+h2{
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+h3{
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+}
+
+@media screen and (min-width: 720px) and (max-width: 839px){
+  .wrapper{
+  padding: 150px 10% 0 10%;
+}
+
+h1{
+  margin:0 0 25px 0;
+  font-size: 135px;
+  letter-spacing: 6px;
+  background: url('../images/one.jpg') no-repeat center right;
+  background-size: 100% auto;
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+h2{
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+h3{
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+}
+
+@media screen and (min-width: 840px) and (max-width: 959px){
+  .wrapper{
+  padding: 150px 10% 0 10%;
+}
+
+h1{
+  margin:0 0 25px 0;
+  font-size: 155px;
+  letter-spacing: 8px;
+  background: url('../images/one.jpg') no-repeat center right;
+  background-size: 100% auto;
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+h2{
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+h3{
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+}
+
+@media screen and (min-width: 960px) and (max-width: 1023px){
+  .wrapper{
+  padding: 150px 10% 0 10%;
+}
+
+h1{
+  margin:0 0 25px 0;
+  font-size: 175px;
+  letter-spacing: 8px;
+  background: url('../images/one.jpg') no-repeat center right;
+  background-size: 100% auto;
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+h2{
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+h3{
+  font-size: 22px;
+  letter-spacing: 3px;
+}
 }
